@@ -1,5 +1,5 @@
 /* 
- *  HD44780.c - Source file of LCD library
+ *  HD44780.c - Source file of HD44780 library
  *  Written by Ercan Ersoy.
  */
 
@@ -60,14 +60,37 @@ void lcd_print(const char *s)
 
 void lcd_goto_xy(unsigned char x, unsigned char y)
 {
+#if ROWS == 2
+
     if (x == 0)
     {
-        lcd_send_command(FirstLine + (y % 16));
+        lcd_send_command(FirstLine + (y % COLUMNS));
     }
     else if(x == 1)
     {
-        lcd_send_command(SecondLine + (y % 16));
+        lcd_send_command(SecondLine + (y % COLUMNS));
     }
+
+#elif ROWS == 4
+
+    if (x == 0)
+    {
+        lcd_send_command(FirstLine + (y % COLUMNS));
+    }
+    else if(x == 1)
+    {
+        lcd_send_command(SecondLine + (y % COLUMNS));
+    }
+    else if(x == 2)
+    {
+        lcd_send_command(ThirdLine + (y % COLUMNS));
+    }
+    else if(x == 3)
+    {
+        lcd_send_command(FourthLine + (y % COLUMNS));
+    }
+
+#endif
 }
 
 void lcd_prepare()

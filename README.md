@@ -1,4 +1,4 @@
-# PIC MPLABX HD44780 16x2 LCD Library
+# PIC MPLABX HD44780 Library
 
 Copyright 2019 Ercan Ersoy
 
@@ -7,6 +7,9 @@ This LCD library is useful for more LCD applications.
 This LCD library licensed by CC0-1.0 Universal License.
 
 ## Usage
+
+This library supports only 2 row or 4 row LCDs. But, this library
+doesn't support 40x4 dual controller LCDs.
 
 This library supports only 4 byte data connection.
 

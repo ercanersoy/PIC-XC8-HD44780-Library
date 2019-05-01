@@ -1,10 +1,21 @@
 /* 
- *  HD44780.h - Header file of LCD library
+ *  HD44780.h - Header file of HD44780 library
  *  Written by Ercan Ersoy.
  */
 
 #ifndef HD44780_H
 #define	HD44780_H
+
+#define COLUMNS 0
+#define ROWS 0
+
+#ifndef COLUMNS
+#error COLUMNS must be defined.
+#endif
+
+#ifndef ROWS
+#error ROWS must be defined.
+#endif
 
 #define _XTAL_FREQ 0
 
@@ -45,6 +56,8 @@
 #define OnOffScreen 8
 #define FirstLine 128
 #define SecondLine 192
+#define ThirdLine 148
+#define FourthLine 212
 #define GenerateCharacterAddress 64
 #define DoubleLine 40
 #define SingleLine 32
