@@ -1,10 +1,10 @@
 /* 
- *  LCD_lib.h - Header file of LCD library
+ *  HD44780.h - Header file of LCD library
  *  Written by Ercan Ersoy.
  */
 
-#ifndef LCD_LIB_H
-#define	LCD_LIB_H
+#ifndef HD44780_H
+#define	HD44780_H
 
 #define _XTAL_FREQ 0
 

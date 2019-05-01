@@ -1,10 +1,10 @@
 /* 
- *  LCD_lib.c - Source file of LCD library
+ *  HD44780.c - Source file of LCD library
  *  Written by Ercan Ersoy.
  */
 
 #include <xc.h>
-#include "LCD_lib.h"
+#include "HD44780.h"
 
 void lcd_wait(void)
 {

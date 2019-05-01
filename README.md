@@ -10,6 +10,9 @@ This LCD library licensed by CC0-1.0 Universal License.
 
 This library supports only 4 byte data connection.
 
+_XTAL_FREQ, RS, RW, ENABLE and LCD_PORT must be defined at "HD44780.h"
+header file.
+
 ### void lcd_wait(void)
 
 Wait for screen for send command or send data.
