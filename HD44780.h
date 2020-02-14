@@ -4,7 +4,7 @@
  */
 
 #ifndef HD44780_H
-#define	HD44780_H
+#define HD44780_H
 
 #define COLUMNS 0
 #define ROWS 0
