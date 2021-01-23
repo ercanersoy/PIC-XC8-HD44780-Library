@@ -1,6 +1,6 @@
-# PIC MPLABX HD44780 Library
+# PIC XC8 HD44780 Library
 
-Copyright (C) 2020 Ercan Ersoy
+Copyright (C) 2020-2021 Ercan Ersoy
 
 This LCD library is useful for more LCD applications.
 
@@ -49,7 +49,5 @@ Put cursor to specified position.
 Initialize for screen for usage.
 
 ## Note
-
-MPLAB is a registered trademark of Microchip Technology Incorporated.
 
 PIC is a registered trademark of Microchip Technology Incorporated.
