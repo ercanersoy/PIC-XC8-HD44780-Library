@@ -1,6 +1,6 @@
 # PIC XC8 HD44780 Library
 
-Copyright (C) 2020-2021 Ercan Ersoy
+Copyright (C) 2019-2021 Ercan Ersoy
 
 This LCD library is useful for more LCD applications.
 
