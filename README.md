@@ -1,10 +1,10 @@
 # PIC XC8 HD44780 Library
 
-Copyright (C) 2019-2021 Ercan Ersoy
+Copyright (C) 2019-2024 Ercan Ersoy
 
 This LCD library is useful for more LCD applications.
 
-This LCD library licensed by CC0-1.0 Universal License.
+This LCD library licensed by MIT License.
 
 ## Usage
 
